@@ -9,6 +9,7 @@ html{
 }
 
 body{
+    background: url(media/corner-pattern-background-light-grey-color-squared-90-degrees-lines-seamless-wallpaper-texture.jpg);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.4;
@@ -16,13 +17,6 @@ body{
 
 h2{
     font-size: 1.1em;
-}
-
-#container{
-    width: 900px;
-    margin: 0 auto;
-    background-color: whitesmoke;
-    padding: 15px;
 }
 
 header{
