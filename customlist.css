@@ -57,6 +57,14 @@ article{
     overflow: auto;
 }
 
+a{
+    text-decoration: none;
+    background-color: orange;
+    width: 50px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
 footer{
     text-align: center;
     clear: both;

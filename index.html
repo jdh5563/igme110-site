@@ -6,17 +6,20 @@
         <title>John Heiden's IGME 110 Page</title>
     </head>
     <body>
-        <div id="container"></div>
-        <header>
+        <aside id="main">
             <h1>John Heiden</h1>
-        </header>
-        
-        <aside>
-            <h2>
-                My Information
-            </h2>
+            <div style="text-align: center;">
+                <a id="mainButton" href="index.html" class="homepage">HOME</a>
+                <a id="mainButton" href=#secondsection class="projectpage">PROJECTS</a>
+                <a id="mainButton" href="resume.html" class="resumepage">RESUME</a>
+            </div>
+        </aside>
+    </body>
+    
+    <article id="secondsection">
+        <h2>About</h2>
             <div id="portrait">
-                <img src="media/John%20Heiden.jpg" alt="John Heiden" id="portrait_img"/>
+                <img src="media/John%20Heiden.jpg" alt="John Heiden" id="my_portrait_img"/>
             </div>
             <p>
                 I am a freshman in the class of 2023 at RIT. I am a Game Design and Development major with a passion for both playing and creating games. I love rock climbing and swimming. I love my dog and two cats, as well as all of the other furry friends I have in my home that I foster.
@@ -35,25 +38,53 @@
             <p>
                 Phone Number: 305-282-7733
             </p>
+            <h2>
+                Projects
+            </h2>
+        
+            <aside id="DungeonImage">        
+                <div id="portrait">
+                <img src="media/Dungeon.JPG" alt="John Heiden" id="portrait_img"/>
+                </div>
+            </aside>
+        
+            <aside id="DungeonText">        
+                <p>This dungeon generator was created as the first homework assignment in my intro game development class.
+                </p>
+                <a id="expandbutton" href="DungeonGenerator.html" class="dungeonpage">EXPAND</a>
+            </aside>
+        
+            <aside id="ListImage">
+                <div id="portrait">
+                <img src="media/List.JPG" alt="John Heiden" id="portrait_img"/>
+                </div>
+            </aside>
+        
+        <aside id="ListText">
+        <p>This program is essentially one class that replicates the functionality of C#'s generic List Class.</p>
+            <a id="expandbutton" href="CustomList.html" class="listpage">EXPAND</a>
         </aside>
         
-        <article>
-            <h2>
-                Projects/Experience
-            </h2>
-            
-            <p>
-                Languages: Java, C#
-            </p>
-            
-            <p>
-                Engines: Unity
-            </p>
-            
-            <p>Work: Program Aide for Mini Canes Camp</p>
-            
-                <p><a href="page2.html">My Projects</a></p>
-            <p><a href="resume.html">My Resume</a></p>
-        </article>
-    </body>
+                    <aside id="SpaceImage">
+                <div id="portrait">
+                <img src="media/Space%20Shifter.JPG" alt="John Heiden" id="landscape"/>
+                </div>
+            </aside>
+        
+        <aside id="SpaceText">
+        <p>Space Shifter is my first real large scale project that I am working on.</p>
+            <a id="expandbutton" href="SpaceShifter.html" class="spacepage">EXPAND</a>
+        </aside>
+        
+                            <aside id="MonsterImage">
+                <div id="portrait">
+                <img src="media/Monster.gif" alt="John Heiden" id="landscape"/>
+                </div>
+            </aside>
+        
+        <aside id="MonsterText">
+        <p>This program was assigned as homework in my intro game development class.</p>
+            <a id="expandbutton" href="Monster.html" class="monsterpage">EXPAND</a>
+        </aside>
+    </article>
 </html>
